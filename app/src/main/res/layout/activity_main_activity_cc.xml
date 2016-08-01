@@ -22,6 +22,28 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:columnCount="2"
-        android:rowCount="4"></GridLayout>
+        android:columnCount="30"
+        android:rowCount="27">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imagen1cc"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnSpan="2"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imagen2cc"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" />
+
+    </GridLayout>
 </LinearLayout>
